@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <style src = "stylestuff.css"></style>
+    <head>
+        <meta charset = "utf-8"/>
+        <title>Message Sender</title>
+        <link rel="shortcut icon" type="image/jpg" href="anna.jpg" />
+        <script src =myNewSocket.js></scriptsrc:></script>
+        <script src =scaleScript.js></scriptsrc:></script>
+    </head>
+  <body style ="background-size: 100%; background-image:url('imagenlol.jpg');">
+        <h2 class="headerText">
+            Register
+        </h2>
+     <div>   
+            <form action>   
+                <input class="lolx" placeholder="Name" type="text" id="name" required/>
+                <input class="lolx" placeholder="Birthday" type="date" id="bDay" required />
+                <input class="lolx" placeholder="Age" type="text" id="age" required/>
+                <input class="lolx" placeholder="Last name" type="text" id="lName" required/>
+                <button class="lol" onclick="sendTo();">
+                    Send Data
+                </button>
+            </form>
+     </div>
+  </body>
+        <form action="home.html">
+            <input type="submit" class="indexButtonStyle" value="Go to Home Page"/>
+        </form>
+</html>
+
+<style>
+    button.lol
+    {
+        position:fixed;
+        left: 70%; 
+        background-color: black;
+        color: #4800ff;
+        border: 2px solid #4800ff;
+        border-radius: 50px;
+    }
+    button.lol:hover
+    {
+        background-color: #4800ff;
+        color: black;
+        transition: .5s;
+    }
+    h1.headerText
+    {
+        color: rgba(106, 0, 255, 0.206);
+        font-family: 'Courier New', Courier, monospace;
+    }
+    h1.headerText:hover
+    {
+        background-color: #ff005157;
+        color: black;
+        transition: .5s;
+    }
+    input.indexButtonStyle
+    {   
+        position: absolute;
+        left: 0.8%;
+        top: 30%;
+        background-color: black;
+        color: #4800ff;
+        border: 2px solid #4800ff;
+        border-radius: 50px;
+    }
+    input.indexButtonStyle:hover
+    {
+        background-color: #4800ff;
+        color: black;
+        border: 2px solid #7345e7;
+        transition: .5s;
+    }
+    input.lolx
+    {
+        background-color: black;
+        color: #4800ff;
+        border: 2px solid #4800ff;
+        border-radius: 50px;
+    }
+    input.lolx:hover
+    {
+        background-color: #4800ff;
+        color: black;
+        border: 2px solid #4800ff;
+        transition: .5s;
+    }
+    h2.headerText
+    {
+        color: rgba(106, 0, 255, 0.206);
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+</style>
